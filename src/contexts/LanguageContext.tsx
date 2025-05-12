@@ -57,6 +57,118 @@ const translations: Record<string, Record<Language, string>> = {
     en: 'Add to Favorites',
     ar: 'أضف إلى المفضلة'
   },
+  'action.viewAll': {
+    en: 'View All',
+    ar: 'عرض الكل'
+  },
+  'action.shopNow': {
+    en: 'Shop Now',
+    ar: 'تسوق الآن'
+  },
+  'home.summerSale': {
+    en: 'Summer Sale',
+    ar: 'تخفيضات الصيف'
+  },
+  'home.salePromo': {
+    en: 'Up to 50% off on selected items',
+    ar: 'خصم يصل إلى 50٪ على المنتجات المختارة'
+  },
+  'home.featuredProducts': {
+    en: 'Featured Products',
+    ar: 'منتجات مميزة'
+  },
+  'home.newArrivals': {
+    en: 'New Arrivals',
+    ar: 'وصل حديثاً'
+  },
+  'auth.createAccount': {
+    en: 'Create your account',
+    ar: 'إنشاء حساب جديد'
+  },
+  'auth.fullName': {
+    en: 'Full Name',
+    ar: 'الاسم الكامل'
+  },
+  'auth.enterFullName': {
+    en: 'Enter your full name',
+    ar: 'أدخل اسمك الكامل'
+  },
+  'auth.nameRequired': {
+    en: 'Name is required',
+    ar: 'الاسم مطلوب'
+  },
+  'auth.email': {
+    en: 'Email',
+    ar: 'البريد الإلكتروني'
+  },
+  'auth.enterEmail': {
+    en: 'Enter your email',
+    ar: 'أدخل بريدك الإلكتروني'
+  },
+  'auth.emailRequired': {
+    en: 'Email is required',
+    ar: 'البريد الإلكتروني مطلوب'
+  },
+  'auth.invalidEmail': {
+    en: 'Invalid email address',
+    ar: 'عنوان بريد إلكتروني غير صالح'
+  },
+  'auth.password': {
+    en: 'Password',
+    ar: 'كلمة المرور'
+  },
+  'auth.createPassword': {
+    en: 'Create a password',
+    ar: 'أنشئ كلمة مرور'
+  },
+  'auth.passwordRequired': {
+    en: 'Password is required',
+    ar: 'كلمة المرور مطلوبة'
+  },
+  'auth.passwordLength': {
+    en: 'Password must be at least 6 characters',
+    ar: 'يجب أن تكون كلمة المرور 6 أحرف على الأقل'
+  },
+  'auth.confirmPassword': {
+    en: 'Confirm Password',
+    ar: 'تأكيد كلمة المرور'
+  },
+  'auth.confirmPasswordPlaceholder': {
+    en: 'Confirm your password',
+    ar: 'تأكيد كلمة المرور'
+  },
+  'auth.confirmPasswordRequired': {
+    en: 'Please confirm your password',
+    ar: 'يرجى تأكيد كلمة المرور'
+  },
+  'auth.passwordsNotMatch': {
+    en: 'Passwords do not match',
+    ar: 'كلمات المرور غير متطابقة'
+  },
+  'auth.accountType': {
+    en: 'Account Type',
+    ar: 'نوع الحساب'
+  },
+  'auth.asCompany': {
+    en: 'Register as a Company',
+    ar: 'التسجيل كشركة'
+  },
+  'auth.asMarketer': {
+    en: 'Register as a Marketer',
+    ar: 'التسجيل كمسوق'
+  },
+  'auth.creatingAccount': {
+    en: 'Creating Account...',
+    ar: 'جاري إنشاء الحساب...'
+  },
+  'auth.alreadyHaveAccount': {
+    en: 'Already have an account?',
+    ar: 'هل لديك حساب بالفعل؟'
+  },
+  'auth.signIn': {
+    en: 'Sign in',
+    ar: 'تسجيل الدخول'
+  },
   // Add more translations as needed
 };
 
