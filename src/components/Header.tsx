@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, ShoppingCart, Menu, Globe } from 'lucide-react';
+import { Search, ShoppingCart, Globe } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useCart } from '../contexts/CartContext';
 
@@ -10,15 +10,13 @@ interface HeaderProps {
   showBack?: boolean;
   showSearch?: boolean;
   showCart?: boolean;
-  showMenu?: boolean;
 }
 
 const Header: React.FC<HeaderProps> = ({ 
   title, 
   showBack = false, 
   showSearch = true, 
-  showCart = true, 
-  showMenu = true 
+  showCart = true
 }) => {
   const navigate = useNavigate();
   const { t, language, changeLanguage } = useLanguage();
@@ -46,12 +44,6 @@ const Header: React.FC<HeaderProps> = ({
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
-            </button>
-          )}
-          
-          {showMenu && (
-            <button className="p-1 rounded-full hover:bg-gray-100">
-              <Menu size={24} />
             </button>
           )}
           
