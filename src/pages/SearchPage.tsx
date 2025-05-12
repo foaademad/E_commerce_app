@@ -5,7 +5,7 @@ import { Search, X } from 'lucide-react';
 import Header from '../components/Header';
 import ProductCard from '../components/ProductCard';
 import BottomNavigation from '../components/BottomNavigation';
-import { getAllProducts } from '../data/mockData';
+import { products } from '../data/mockData'; // Fixed import - using products directly
 import { useLanguage } from '../contexts/LanguageContext';
 
 const SearchPage: React.FC = () => {
@@ -14,7 +14,7 @@ const SearchPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<any[]>([]);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
-  const allProducts = getAllProducts();
+  const allProducts = products; // Using products directly from mockData
   
   // Load recent searches from localStorage
   useEffect(() => {
